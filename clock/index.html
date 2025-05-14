@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vertical Timer Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <p>Qualifying Draws Match M18 - Eight vs. Team McDonald - End 1</p>
+  </div>
+
+  <div class="main-layout">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h3>Qualifying Draws Match</h3>
+      <div class="side-button">STOP ALL</div>
+      <div class="side-button">
+        <div>PRACTICE</div>
+        <div class="side-timer">16:00</div>
+      </div>
+      <div class="side-button">
+        <div>MIDGAME<br>BREAK</div>
+        <div class="side-timer">02:30</div>
+      </div>
+      <div class="side-button">
+        <div>BETWEEN<br>END</div>
+        <div class="side-timer">00:30</div>
+      </div>
+      <div class="side-button">EXTRA END</div>
+    </div>
+
+    <!-- Main content (timer panels) -->
+    <div class="content">
+      <div class="team-panel red">
+        <div class="top-row">
+          <h2>Eight</h2>
+          <div class="elapsed">03:46 elapsed</div>
+        </div>
+        <div class="timer">29:14</div>
+        <div class="buttons-row">
+          <button class="start red-btn">▶ START</button>
+          <button class="edit">✎ EDIT</button>
+        </div>
+        <div class="timeouts">
+          <div class="timeout-label">Timeouts</div>
+          <div class="timeout-controls">
+            <button>-</button>
+            <span class="timeout-count">2 left</span>
+            <button>+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-panel yellow">
+        <div class="top-row">
+          <h2>Team McDonald</h2>
+          <div class="elapsed">00:05 elapsed</div>
+        </div>
+        <div class="timer">32:55</div>
+        <div class="buttons-row">
+          <button class="start yellow-btn">▶ START</button>
+          <button class="edit">✎ EDIT</button>
+        </div>
+        <div class="timeouts">
+          <div class="timeout-label">Timeouts</div>
+          <div class="timeout-controls">
+            <button>-</button>
+            <span class="timeout-count">2 left</span>
+            <button>+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
