@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'BruceForever';
+    src: url('BruceForever-Regular.woff2') format('woff2'),
+         url('BruceForever-Regular.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'BruceForever', Arial, sans-serif;
+    font-size: 16px;
+    background-image: url('batman.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0;
+}
+
+#pagewrap {
+    width: 960px;
+    margin: 30px auto;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0 20px rgba(0,0,0,0.9);
+}
+
+#navigation_wrapper {
+    width: 250px;
+    padding: 10px;
+    background-color: #111;
+    border-right: 1px solid #444;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #ccc;
+    border-left: 5px solid #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+#navi {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #000;
+    color: #f5c518;
+    text-align: center;
+    padding: 14px 0;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.nav li:hover {
+    background-color: #292929;
+    color: #f5c518;
+    cursor: pointer;
+}
+
+#bodywrap {
+    flex: 1;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+#image-banner img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+#page {
+    font-size: 26px;
+    color: #f5c518;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#bodywrap p {
+    margin-bottom: 18px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+#link_title {
+    font-weight: bold;
+    background-color: #222;
+    color: #f5c518;
+    padding: 12px;
+    margin-top: 30px;
+    font-size: 18px;
+    border-top: 2px solid #444;
+}
+
+#reference {
+    margin-top: 12px;
+    color: #c0392b;
+    font-style: italic;
+    padding-left: 10px;
+}
